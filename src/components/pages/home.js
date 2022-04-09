@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
     return(
         <div className="main-banner img-container dark-color">
@@ -11,7 +13,7 @@ const Home = () => {
                     <div className="main-banner__data s-center">
                         <p className="s-mb-0 t2">Bienvenido a "La cupcake de tu madre"</p>
                         <p>Porque un cupcake nunca es suficiente si es de tu madre.</p>
-                        <a className="button light-color" href="/">Ver cupcakes</a>
+                        <Link className="button light-color" to="/cupcakes">Ver cupcakes</Link>
                     </div>
                 </div>
             </div>
