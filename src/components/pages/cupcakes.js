@@ -1,7 +1,7 @@
 const Cupcakes = () => {
     <div>
         <h1>
-            Página de cupcakes
+            En esta sección venderémos cupcakes
         </h1>
     </div>
 }

@@ -4,3 +4,9 @@
 .main-logo{
     height: 3rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .main-logo{
+        height: 2rem;
+    }
+}

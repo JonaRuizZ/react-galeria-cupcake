@@ -10,7 +10,7 @@ const Home = () => {
                      />
                     <div className="main-banner__data s-center">
                         <p className="s-mb-0 t2">Bienvenido a "La cupcake de tu madre"</p>
-                        <p>Porque un cupcake nunca es suficiente si es de tu madre</p>
+                        <p>Porque un cupcake nunca es suficiente si es de tu madre.</p>
                         <a className="button light-color" href="/">Ver cupcakes</a>
                     </div>
                 </div>
