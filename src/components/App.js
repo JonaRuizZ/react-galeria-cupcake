@@ -5,7 +5,7 @@ import Cupcakes from './pages/cupcakes';
 import AboutUs from './pages/aboutUs';
 
 //import react router
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 //import styles
 import '../styles/styles.scss';

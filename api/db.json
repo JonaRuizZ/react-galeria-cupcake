@@ -1,0 +1,8 @@
+{
+    "cupcakes": [
+      { "sabor": "Vainilla", "color": "Amarillo", "descripcion": "Un capcake para personas con gustos clasicos", "precio": "700" },
+      { "sabor": "Chocolate", "color": "Marrón", "descripcion": "Un capcake para personas alegres", "precio": "750" },
+      { "sabor": "Frutilla", "color": "Rosa", "descripcion": "Un capcake para personas dulces", "precio": "650" },
+      { "sabor": "Misterio", "color": "Azul", "descripcion": "Un capcake para personas con gustos misteriosos", "precio": "800" }
+    ]
+  }
