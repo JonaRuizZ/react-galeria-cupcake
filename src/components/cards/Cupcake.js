@@ -1,7 +1,7 @@
-const Cupcake = ({image, sabor, descripcion, color, precio}) => {
+const Cupcake = ({imagen, sabor, descripcion, color, precio}) => {
     return(
         <div>
-            <img src={image} alt={sabor} />
+            <img src={imagen} alt={sabor} />
             <p>{descripcion}</p>
             <span>Color: {color}</span>
             <span>Precio: {precio}</span>

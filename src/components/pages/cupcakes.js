@@ -8,15 +8,33 @@ const Cupcakes = () => {
     useEffect(() => {
         fetch("http://localhost:3001/cupcakes")
         .then(response => response.json())
-        .then(data => console.log(data))
+        .then(data => setCupcakes(data)) // Estamos diciendo que cupcakes tenga el valor de data
     }, [])
 
     return(
         <div className="ed-grid">
             <h1>En esta sección venderémos cupcakes</h1>
-            <section>
-                <Cupcake />
-            </section>
+            {
+            // Loader ternario: Hay cupcakes? entonces almacenalos en el array y me los muestras en un nuevo array (.map)
+            cupcakes ? (
+                <section>
+                    {
+                        //cupcakes.map(c => <Cupcake />)
+                        cupcakes.map(({imagen, sabor, descripcion, color, precio}) => (
+                            <Cupcake 
+                                imagen={imagen}
+                                sabor={sabor}
+                                descripcion={descripcion}
+                                color={color}
+                                precio={precio}
+                            />
+                        ))
+
+                    }
+                </section>
+                // Mientras se recepcionan los datos de la fake API, nos mostrará un cargando...
+            ) : (<span>Cargando...</span>)
+            }
         </div>
     )
 }
