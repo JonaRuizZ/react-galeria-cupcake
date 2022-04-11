@@ -17,11 +17,12 @@ const Cupcakes = () => {
             {
             // Loader ternario: Hay cupcakes? entonces almacenalos en el array y me los muestras en un nuevo array (.map)
             cupcakes ? (
-                <section>
+                <section className="ed-grid s-grid-2 m-grid-3 lg-grid-4 row-gap">
                     {
                         //cupcakes.map(c => <Cupcake />)
-                        cupcakes.map(({imagen, sabor, descripcion, color, precio}) => (
-                            <Cupcake 
+                        cupcakes.map(({id, imagen, sabor, descripcion, color, precio}) => (
+                            <Cupcake
+                                key={id} 
                                 imagen={imagen}
                                 sabor={sabor}
                                 descripcion={descripcion}

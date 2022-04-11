@@ -1,8 +1,20 @@
 {
     "cupcakes": [
-      { "sabor": "Vainilla", "color": "Amarillo", "descripcion": "Un capcake para personas con gustos clasicos", "precio": "700", "imagen": "https://m.media-amazon.com/images/I/71xNaf86SBL._CR0,199,1228,1228_UX256.jpg" },
-      { "sabor": "Chocolate", "color": "Marrón", "descripcion": "Un capcake para personas alegres", "precio": "750", "imagen": "https://pbs.twimg.com/profile_images/378800000263025198/0103812a978e03f5e1827cf68d3157b1.jpeg" },
-      { "sabor": "Frutilla", "color": "Rosa", "descripcion": "Un capcake para personas dulces", "precio": "650", "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fqlpHSUi-XKxPuCgIz9-DhzDZcl0sePMXw&usqp=CAU" },
-      { "sabor": "Misterio", "color": "Azul", "descripcion": "Un capcake para personas con gustos misteriosos", "precio": "800", "imagen": "https://images.freeimages.com/images/premium/small-comps/1886/18864593-pin-cushion.jpg" }
+      { "id": 1, "sabor": "Vainilla", "color": "Amarillo", "descripcion": "Un capcake para personas con gustos clasicos", "precio": 700, "imagen": "https://m.media-amazon.com/images/I/71xNaf86SBL._CR0,199,1228,1228_UX256.jpg" },
+      { "id": 2, "sabor": "Chocolate", "color": "Marrón", "descripcion": "¿Mal día? pruébame y las cosas cambiarán", "precio": 750, "imagen": "https://pbs.twimg.com/profile_images/378800000263025198/0103812a978e03f5e1827cf68d3157b1.jpeg" },
+      { "id": 3, "sabor": "Frutilla", "color": "Rosa", "descripcion": "Dulce como tú", "precio": 650, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fqlpHSUi-XKxPuCgIz9-DhzDZcl0sePMXw&usqp=CAU" },
+      { "id": 4, "sabor": "Misterio", "color": "Azul", "descripcion": "Un capcake para personas con gustos misteriosos", "precio": 800, "imagen": "https://images.freeimages.com/images/premium/small-comps/1886/18864593-pin-cushion.jpg" },
+      { "id": 5, "sabor": "Vainilla", "color": "Amarillo", "descripcion": "Un capcake para personas con gustos clasicos", "precio": 700, "imagen": "https://m.media-amazon.com/images/I/71xNaf86SBL._CR0,199,1228,1228_UX256.jpg" },
+      { "id": 6, "sabor": "Chocolate", "color": "Marrón", "descripcion": "¿Mal día? pruébame y las cosas cambiarán", "precio": 750, "imagen": "https://pbs.twimg.com/profile_images/378800000263025198/0103812a978e03f5e1827cf68d3157b1.jpeg" },
+      { "id": 7, "sabor": "Frutilla", "color": "Rosa", "descripcion": "Dulce como tú", "precio": 650, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fqlpHSUi-XKxPuCgIz9-DhzDZcl0sePMXw&usqp=CAU" },
+      { "id": 8, "sabor": "Misterio", "color": "Azul", "descripcion": "Un capcake para personas con gustos misteriosos", "precio": 800, "imagen": "https://images.freeimages.com/images/premium/small-comps/1886/18864593-pin-cushion.jpg" },
+      { "id": 9, "sabor": "Vainilla", "color": "Amarillo", "descripcion": "Un capcake para personas con gustos clasicos", "precio": 700, "imagen": "https://m.media-amazon.com/images/I/71xNaf86SBL._CR0,199,1228,1228_UX256.jpg" },
+      { "id": 10, "sabor": "Chocolate", "color": "Marrón", "descripcion": "¿Mal día? pruébame y las cosas cambiarán", "precio": 750, "imagen": "https://pbs.twimg.com/profile_images/378800000263025198/0103812a978e03f5e1827cf68d3157b1.jpeg" },
+      { "id": 11, "sabor": "Frutilla", "color": "Rosa", "descripcion": "Dulce como tú", "precio": 650, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fqlpHSUi-XKxPuCgIz9-DhzDZcl0sePMXw&usqp=CAU" },
+      { "id": 12, "sabor": "Misterio", "color": "Azul", "descripcion": "Un capcake para personas con gustos misteriosos", "precio": 800, "imagen": "https://images.freeimages.com/images/premium/small-comps/1886/18864593-pin-cushion.jpg" },
+      { "id": 13, "sabor": "Vainilla", "color": "Amarillo", "descripcion": "Un capcake para personas con gustos clasicos", "precio": 700, "imagen": "https://m.media-amazon.com/images/I/71xNaf86SBL._CR0,199,1228,1228_UX256.jpg" },
+      { "id": 14, "sabor": "Chocolate", "color": "Marrón", "descripcion": "¿Mal día? pruébame y las cosas cambiarán", "precio": 750, "imagen": "https://pbs.twimg.com/profile_images/378800000263025198/0103812a978e03f5e1827cf68d3157b1.jpeg" },
+      { "id": 15, "sabor": "Frutilla", "color": "Rosa", "descripcion": "Dulce como tú", "precio": 650, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fqlpHSUi-XKxPuCgIz9-DhzDZcl0sePMXw&usqp=CAU" },
+      { "id": 16, "sabor": "Misterio", "color": "Azul", "descripcion": "Un capcake para personas con gustos misteriosos", "precio": 800, "imagen": "https://images.freeimages.com/images/premium/small-comps/1886/18864593-pin-cushion.jpg" }
     ]
   }
