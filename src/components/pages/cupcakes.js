@@ -30,7 +30,6 @@ const Cupcakes = () => {
                                 precio={precio}
                             />
                         ))
-
                     }
                 </section>
                 // Mientras se recepcionan los datos de la fake API, nos mostrará un cargando...
