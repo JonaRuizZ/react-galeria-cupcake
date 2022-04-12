@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import useFetch from "../../hooks/useFetch";
 
 const Servicios = ({ peticion }) => {
-    const [servicios, setServicios] = useState()
+/*     const [servicios, setServicios] = useState()
 
     useEffect(() => {
         fetch(`${process.env.REACT_APP_URL_API}${peticion}`)
@@ -9,9 +9,16 @@ const Servicios = ({ peticion }) => {
         .then(data => setServicios(data)) // Estamos diciendo que cupcakes tenga el valor de data
         .catch(e => console.log(e))
     }, [peticion])
+ */
 
-    if(!servicios){
-        return <span>No hay servicios</span>
+    const [servicios, error] = useFetch(peticion)
+
+    if(error){
+        return <span>{JSON.stringify(error)}</span> // error es un objeto, para mostrarlo tenemos que pasarlo a JSON
+    }
+
+    if(!servicios || servicios.length === 0){
+        return <span>No hay servicios disponibles</span>
     }
 
     return(
