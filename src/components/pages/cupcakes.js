@@ -1,19 +1,24 @@
 import { useEffect, useState } from "react";
 import Cupcake from "../cards/Cupcake";
 
-const Cupcakes = () => {
+const Cupcakes = ( {peticion, title} ) => {
     const [cupcakes, setCupcakes] = useState()
 
     // Cada vez que ponga la página cupcakes traeme todo los cupcakes que tengas en la API usando fetch:
     useEffect(() => {
-        fetch("http://localhost:3001/cupcakes")
+        // URL con variable de entorno
+        // fetch("http://localhost:3001/cupcakes")
+        // fetch(`${process.env.REACT_APP_URL_API}cupcakes`) nos muestra solo los cupcakes
+        // fetch(`${process.env.REACT_APP_URL_API}cupcakes?descripcion_like=chocolate`) Mostrar los que contengan en la descripcion la palabra chocolate
+        fetch(`${process.env.REACT_APP_URL_API}${peticion}`)
         .then(response => response.json())
         .then(data => setCupcakes(data)) // Estamos diciendo que cupcakes tenga el valor de data
-    }, [])
+        .catch(e => console.log(e))
+    }, [peticion])
 
     return(
         <div className="ed-grid">
-            <h1>En esta sección venderémos cupcakes</h1>
+            { title && <h1>En esta sección venderémos cupcakes</h1> }
             {
             // Loader ternario: Hay cupcakes? entonces almacenalos en el array y me los muestras en un nuevo array (.map)
             cupcakes ? (

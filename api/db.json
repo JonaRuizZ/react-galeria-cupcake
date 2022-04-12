@@ -10,7 +10,7 @@
       { "id": 2, 
         "sabor": "Hershey’s chocolate", 
         "color": "Rosa", 
-        "descripcion": "Esponjosa torta de chocolate hecha con cocoa Hersheys, cubierto con una suave crema de chocolate.", 
+        "descripcion": "Esponjosa torta de chocolate hecha con cocoa Hersheys, cubierto con una suave crema de frutilla.", 
         "precio": 650, 
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fqlpHSUi-XKxPuCgIz9-DhzDZcl0sePMXw&usqp=CAU" },
 
@@ -83,5 +83,24 @@
         "descripcion": "Suave torta perfumada con leche de coco, con cubierta de mantequilla saborizada con leche de coco y con coco deshidratado encima.", 
         "precio": 750, 
         "imagen": "https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_256,h_256/https://www.vanillacupcakery.com.au/wp-content/uploads/2017/04/Banana-Classic-size-cupcake-256x256.jpg" }
+    ],
+    "servicios": [
+      {
+        "id": 1,
+        "nombre": "Catering",
+        "descripcion": "Nuestros profesionales cuentan con una amplia experiencia en la organización de eventos y se ocuparán de todo para que ustedes solo disfruten"
+      },
+
+      {
+        "id": 2,
+        "nombre": "Delivery",
+        "descripcion": "Pide desde donde quieras, los cupcakes siempre llegarán donde te encuentres"
+      },
+
+      {
+        "id": 3,
+        "nombre": "Curso de repostería",
+        "descripcion": "Curso desde cero donde aprenderas a confeccionar distintos tipos de cupcakes"
+      }
     ]
   }
